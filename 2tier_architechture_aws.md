@@ -1,5 +1,5 @@
-# Steps (title in progress)
-
+# Setting Up a 2-Tier Application
+Using AWS
 
 ## Setting up the App instance
 - Launch an EC2 instance with the correct version of Ubuntu
@@ -21,6 +21,25 @@ Remember to use the _absolute path_ or this command will not run
 - Navigate to the folder containting `provision.sh`
 - Make it executable
 - Run the file with `sudo ./provision.sh`
+
+## Setting up the Database instance
+- Launch an EC2 instance with the correct version of Ubuntu
+- ssh into intance (add more details)
+- Run the following commands:
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+## Connecting App to Database
+- Inside the app instance run: `sudo echo "export DB_HOST=mongodb://[db_private_ip]:[port_no]/posts" >> ~/.bashrc`. This creates an environment variable we can use to connect to the database
+- Then `source ~/.bashrc` to (reset something - pls look into this)
+
+## Creating an image for App and Database
+- Select the instance you'll create and image for
+- Click "Actions" -> "Image and templates" -> "Create image"
+- Give your image a name and description
+- Click save
 
 ## Extra Info
 I have this code in my provision file to set up a reverse proxy:
