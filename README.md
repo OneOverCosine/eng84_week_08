@@ -5,3 +5,4 @@ Tasks for the week:
 
 
 ## [Some Linux Commands](linux_commands.md)
+## [2-Tier Architechture](2tier_architechture_aws.md)

@@ -1,3 +1,5 @@
 # Some Linux Commands
 
-[back to main](./)
+`ls` - Lists your current directory.
+`cat [file]` - 
+`
