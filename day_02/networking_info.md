@@ -30,6 +30,19 @@ Allows you to define and control a virtual network
 - We can define unbound and outbound traffic rules
 - They are stateful - this means that returning traffic can ... (I missed this)
 
+(for the app)
+Inbound rules
+- Create a security group for the app
+- Allow port 80 to all
+- Allow port 22 for ssh
+
+Oubound rules
+- Allow all
+
+(for the private sg)
+- Create a security group for the database
+- Allow access from the app security group (27017???)
+
 ### Ephemeral/dynamic ports
 - They are shortly lived ports that are automatically allocated based on demand
 - Allows outbound responses to clients on the internet

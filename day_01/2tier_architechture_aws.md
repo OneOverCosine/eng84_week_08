@@ -3,6 +3,9 @@ Using AWS
 
 ## Setting up the App instance
 - Launch an EC2 instance with the correct version of Ubuntu
+
+### Setting up Security Groups
+
 - ssh into intance
 - Run the following commands:
 ```

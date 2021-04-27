@@ -13,7 +13,7 @@ Example: `man ls`
 ## Other Things
 `ls` - Lists your current directory.
 
-### To do
+<!-- ### To do
 
 - what is a wildecards and How to use Wildcards
 - how can you do Process Management
@@ -26,4 +26,4 @@ Example: `man ls`
 - what does 777, 400, 600, r,w,x
 - how to use head, tail, sort, nl (number line), wc (word count)
 - what is pipping and redirection, HINT > indicates to the command line
-- what is STDIN standard input and output
+- what is STDIN standard input and output -->
