@@ -1,7 +1,7 @@
 ### Virtual Private Cloud (VPC)
-Allows you to define and control a virtual network
-
-(According to AWS) Allows you to launch AWS resources into a virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your data center. 
+These work like a firewall  
+Allows you to provision an isolated section of the cloud for resources. This 'section' is a virtual network.  
+Allows you to launch AWS resources into a virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your data center. 
 
 ### Benefits to VPCs
 - Allows the EC2 instances to communicate with each other
@@ -10,7 +10,7 @@ Allows you to define and control a virtual network
 
 ### Internet gateways
 - Allows your subnets to connect to the internet
-- A gateway that you attach to your VPC to enable communication between
+- A gateway that you attach to your VPC to enable communication between subnets and the internet
 
 ### Subnets
 - These are networks that sit within a VPC. They make networks more efficient(?)
@@ -23,6 +23,7 @@ Allows you to define and control a virtual network
 
 ### (N) ACLs
 - An added layer of security. They work at the network (subnet) level. 
+- They can be used to control the access between subnets _within_ a VPC
 - (N) ACLs are stateless - because you need rules to allow the requests in and the response out
 
 ***Public ACL***
@@ -41,6 +42,7 @@ Inbound Rules
 
 
 Outbound Rules
+
 
 ### Security groups
 - They work as a firewall on an instance level. They are attached to the VPC and subnet

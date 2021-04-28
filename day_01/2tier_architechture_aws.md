@@ -1,8 +1,9 @@
 # Setting Up a 2-Tier Application
-Using AWS
+Using AWS - personally, I began by following [this video](https://www.youtube.com/watch?v=b1b6JTYnbjU)
 
 ## Setting up the App instance
 - Launch an EC2 instance with the correct version of Ubuntu
+- In this example, I'm using an ami
 
 ### Setting up Security Groups
 
