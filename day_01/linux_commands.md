@@ -15,7 +15,14 @@ Example: `mkdir images` creates folder with the name "images"
 
 `pwd` displays the path to the current directory you're working in  
 
+`nano [filname]` opens a file with the given filenam using the nano editor. If the file doesn't exist, it's created  
 
+`mv [file_path] [new_file_path]` for moving files. Can also rename files using it  
+
+`rm [filename]` used to remove files. Can also be used to remove directories  
+Example: `rm -r images/` (the `-r` flag means "recursive". It allows you to delete directories that contain files)  
+
+`ps` check processes that are running  
 
 ### Wildcards `*`, `?`, and `[]`
 `*` represents any number of unknown characters  
@@ -23,7 +30,7 @@ Example: `mkdir images` creates folder with the name "images"
 `[]` these brackets are used to match any occurences of character defined within them   
 
 ## Other Things
-`ls` - Lists your current directory.
+hello
 
 <!-- ### To do
 
