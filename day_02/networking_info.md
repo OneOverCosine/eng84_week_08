@@ -1,7 +1,7 @@
 ### Virtual Private Cloud (VPC)
 These work like a firewall  
 Allows you to provision an isolated section of the cloud for resources. This 'section' is a virtual network.  
-Allows you to launch AWS resources into a virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your data center. 
+Allows you to launch AWS resources into a virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your data center.  
 
 ### Benefits to VPCs
 - Allows the EC2 instances to communicate with each other
