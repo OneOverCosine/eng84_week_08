@@ -8,3 +8,5 @@ Tasks for the week:
 ## [2-Tier Architechture](./day_01/2tier_architechture_aws.md)
 ---
 ## [Networking Notes](./day_02/networking_info.md)
+---
+## [Working with S3](./day_03/s3.md)
