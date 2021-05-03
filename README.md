@@ -13,3 +13,7 @@
 ### [GitHub Control Flow](./day_03/git_and_github.md)
 ---
 ## DAY 04
+### [CI/CD with Jenkins](https://github.com/OneOverCosine/jenkins_ci_testing_feb_2021) - links to another repo
+---
+## ADDITIONAL WORK
+### [Working with S3 using boto3](./later_additions/boto3.md)
