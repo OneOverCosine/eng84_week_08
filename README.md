@@ -1,7 +1,4 @@
 # Eng84 Week 08
-Tasks for the week:
-- Linux commands (refer to trello)
-- Research staging areas
 
 
 ## DAY 01
@@ -14,3 +11,5 @@ Tasks for the week:
 ## DAY 03
 ### [Working with S3 on AWS CLI](./day_03/s3.md)
 ### [GitHub Control Flow](./day_03/git_and_github.md)
+---
+## DAY 04

@@ -29,8 +29,10 @@ Example: `rm -r images/` (the `-r` flag means "recursive". It allows you to dele
 `?` represents only one unknown character  
 `[]` these brackets are used to match any occurences of character defined within them   
 
-## Other Things
-hello
+## Processes
+`top` - displays running processes in real time  
+`ps` - displays running processes
+
 
 <!-- ### To do
 
